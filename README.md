@@ -121,11 +121,9 @@ Dataset Source: Kaggle (Mall Customer Segmentation)
 
 # 🔄 KNIME Workflow
 
+![KNIME Workflow](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/KNIME/Flow.png)
 
-::contentReference[oaicite:4]{index=4}
-
-
-Steps:
+👉 Workflow used for clustering:
 - CSV Reader  
 - Column Filter  
 - K-Means  
