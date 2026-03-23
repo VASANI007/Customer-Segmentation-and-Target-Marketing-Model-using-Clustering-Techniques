@@ -65,35 +65,37 @@ Dataset Source: Kaggle (Mall Customer Segmentation)
 
 ## 🔹 Customer Distribution
 
+![Customer Distribution](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/custumer_dis.png)
 
-::contentReference[oaicite:0]{index=0}
-
+👉 This scatter plot shows the relationship between **Annual Income** and **Spending Score**.  
+👉 Customers are naturally distributed into different regions, indicating potential clusters.
 
 ---
 
 ## 🔹 Gender Distribution
 
+![Gender Distribution](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/Ex/Ex_01.png)
 
-::contentReference[oaicite:1]{index=1}
-
+👉 Displays the count of male and female customers.  
+👉 Helps in understanding demographic balance in the dataset.
 
 ---
 
 # 📉 Elbow Method
 
+![Elbow Method](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/wcss.png)
 
-::contentReference[oaicite:2]{index=2}
-
-
-👉 Optimal clusters: **5**
+👉 Used to determine the optimal number of clusters.  
+👉 The “elbow point” is observed at **K = 5**, which is selected for clustering.
 
 ---
 
 # 🎯 Final Clusters
 
+![Cluster Plot](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/cluster.png)
 
-::contentReference[oaicite:3]{index=3}
-
+👉 Customers are grouped into **5 distinct clusters** based on behavior.  
+👉 Each color represents a different customer segment.
 
 ### Cluster Types:
 
@@ -162,8 +164,7 @@ Customer-Segmentation-KMeans/
 ├── notebooks/
 │   └── segmentation.ipynb
 │
-├── Customer Segmentation.knwf
-└── README.md
+└── Customer Segmentation.knwf
 ```
 
 ---
