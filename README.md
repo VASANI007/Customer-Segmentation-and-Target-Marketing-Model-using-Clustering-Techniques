@@ -248,17 +248,6 @@ From `train_model.py`:
 6. Generate clustered dataset
 ```
 
-# ⚙ Installation
-
-```
-pip install pandas matplotlib scikit-learn
-```
-
-Run:
-
-```
-jupyter notebook
-```
 # ⚙️ How to Run (IMPORTANT)
 
 ### 1️⃣ Install Dependencies
