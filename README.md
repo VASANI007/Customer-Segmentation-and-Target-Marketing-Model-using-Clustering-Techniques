@@ -60,30 +60,6 @@ Dataset Source: Kaggle (Mall Customer Segmentation)
 6. Analyze clusters for business insights  
 
 ---
-# 🖥️ Streamlit Application
-
-## 🔹 App Features
-
-From your `app.py` :contentReference[oaicite:0]{index=0}:
-
-### 🧩 3 Powerful Tabs
-
-### 1️⃣ Single Prediction
-- Input Income & Spending Score  
-- Predict cluster instantly  
-- Shows visualization with your input point  
-
-### 2️⃣ Dataset Prediction
-- Loads full dataset  
-- Applies clustering  
-- Displays table + chart  
-- Download result CSV  
-
-### 3️⃣ Visualization
-- Interactive Plotly scatter plot  
-- Real-time cluster visualization  
-
----
 
 
 # 📈 EDA (Exploratory Data Analysis)
@@ -172,7 +148,30 @@ From your `app.py` :contentReference[oaicite:0]{index=0}:
 </p>
 
 ---
+# 🖥️ Streamlit Application
 
+## 🔹 App Features
+
+From your `app.py` :contentReference[oaicite:0]{index=0}:
+
+### 🧩 3 Powerful Tabs
+
+### 1️⃣ Single Prediction
+- Input Income & Spending Score  
+- Predict cluster instantly  
+- Shows visualization with your input point  
+
+### 2️⃣ Dataset Prediction
+- Loads full dataset  
+- Applies clustering  
+- Displays table + chart  
+- Download result CSV  
+
+### 3️⃣ Visualization
+- Interactive Plotly scatter plot  
+- Real-time cluster visualization  
+
+---
 
 # 🔄 KNIME Workflow
 
