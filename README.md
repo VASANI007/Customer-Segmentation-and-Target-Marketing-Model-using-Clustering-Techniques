@@ -1,11 +1,11 @@
 <!-- 🌌 Header -->
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Customer%20Segmentation%20AI%20App&fontSize=45&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Customer%20Segmentation%20(K-Means)&fontSize=45&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
-<!-- Typing -->
+<!-- Typing Animation -->
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Customer+Segmentation+using+K-Means;Streamlit+Interactive+App;Python+%7C+ML+%7C+Data+Visualization"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Customer+Segmentation+Project;K-Means+Clustering+%7C+KNIME+%2B+Python;EDA+%2B+Visualization+%2B+Insights"/>
 </p>
 
 ---
@@ -14,29 +14,31 @@
 
 ![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?logo=plotly&logoColor=black)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
 ![KNIME](https://img.shields.io/badge/KNIME-FDD800?logo=data&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
 
 ---
 
 # 📌 Project Overview
 
-This project performs **Customer Segmentation using K-Means Clustering** and provides a **Streamlit-based interactive web application**.
+This project performs **Customer Segmentation using K-Means Clustering**.
 
-It allows:
-- Customer clustering  
-- Real-time predictions  
-- Interactive visualization  
-- Dataset-level analysis  
+It analyzes customer data based on:
+- Age  
+- Annual Income  
+- Spending Score  
+
+and groups customers into meaningful segments.
 
 ---
 
 # 📊 Dataset
 
-Dataset Source: Kaggle  
-https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
+Dataset Source: Kaggle (Mall Customer Segmentation)
+
+🔗 https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
 
 ### Features:
 
@@ -51,21 +53,83 @@ https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-p
 # 🧠 How It Works
 
 1. Load dataset using Pandas  
-2. Select key features (Income & Spending Score)  
-3. Apply Standard Scaling  
-4. Train K-Means model  
-5. Save model files  
-6. Use Streamlit app for predictions & visualization  
+2. Perform Exploratory Data Analysis (EDA)  
+3. Visualize data (scatter plots, distributions)  
+4. Use **Elbow Method** to find optimal clusters  
+5. Apply **K-Means Clustering**  
+6. Analyze clusters for business insights  
+
+---
+
+# 📸 App Preview
+
+## 🔹 Single Prediction
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Dataset Prediction
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app1.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Cluster Visualization
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app2.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Interactive Dashboard
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app3.png" width="700"/>
+</p>
+
+---
+
+# 📈 EDA (Exploratory Data Analysis)
+
+## 🔹 Customer Distribution
+
+![Customer Distribution](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/custumer_dis.png)
+
+👉 This scatter plot shows the relationship between **Annual Income** and **Spending Score**.  
+👉 Customers are naturally distributed into different regions, indicating potential clusters.
+
+---
+
+## 🔹 Gender Distribution
+
+![Gender Distribution](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/Ex/Ex_01.png)
+
+👉 Displays the count of male and female customers.  
+👉 Helps in understanding demographic balance in the dataset.
+
+---
+
+# 📉 Elbow Method
+
+![Elbow Method](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/wcss.png)
+
+👉 Used to determine the optimal number of clusters.  
+👉 The “elbow point” is observed at **K = 5**, which is selected for clustering.
 
 ---
 
 # 🎯 Final Clusters
 
-![Clusters](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/cluster.png)
+![Cluster Plot](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/cluster.png)
+
+👉 Customers are grouped into **5 distinct clusters** based on behavior.  
+👉 Each color represents a different customer segment.
 
 ### Cluster Types:
 
-- High Income / High Spending  
+- High Income / High Spending (Premium Customers)  
 - High Income / Low Spending  
 - Low Income / High Spending  
 - Low Income / Low Spending  
@@ -85,98 +149,31 @@ https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-p
 
 ---
 
-# 🖥️ Streamlit Application
+# 🔄 KNIME Workflow
 
-## 🔹 App Features
+![KNIME Workflow](https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/KNIME/Flow.png)
 
-From your `app.py` :contentReference[oaicite:0]{index=0}:
-
-### 🧩 3 Powerful Tabs
-
-### 1️⃣ Single Prediction
-- Input Income & Spending Score  
-- Predict cluster instantly  
-- Shows visualization with your input point  
-
-### 2️⃣ Dataset Prediction
-- Loads full dataset  
-- Applies clustering  
-- Displays table + chart  
-- Download result CSV  
-
-### 3️⃣ Visualization
-- Interactive Plotly scatter plot  
-- Real-time cluster visualization  
+👉 Workflow used for clustering:
+- CSV Reader  
+- Column Filter  
+- K-Means  
+- Color Manager  
+- Scatter Plot  
 
 ---
 
-## 📸 App Preview
+# 🐍 Python Implementation
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app.png" width="250"/>
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app1.png" width="250"/>
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app2.png" width="250"/>
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app3.png" width="250"/>
-</p>
+```python
+import pandas as pd
+from sklearn.cluster import KMeans
 
----
+df = pd.read_csv("../data/Mall_Customers.csv")
 
-# ⚙️ How to Run (IMPORTANT)
+X = df[['Annual Income (k$)', 'Spending Score (1-100)']]
 
-### 1️⃣ Install Dependencies
-
-```
-pip install pandas numpy scikit-learn streamlit plotly
-```
-
----
-
-### 2️⃣ Train Model (First Time Only)
-
-Run:
-
-```
-python train_model.py
-```
-
-👉 This will:
-- Train KMeans model  
-- Save model.pkl, scaler.pkl, features.pkl  
-- Generate output dataset  
-
-(From your script) :contentReference[oaicite:1]{index=1}
-
----
-
-### 3️⃣ Run App
-
-```
-streamlit run app.py
-```
-
----
-
-# 🤖 Model Details
-
-Inside `/models`:
-
-- `model.pkl` → KMeans clustering model  
-- `scaler.pkl` → StandardScaler  
-- `features.pkl` → Selected features  
-
----
-
-# 🧠 Model Training Pipeline
-
-From `train_model.py`:
-
-```
-1. Load dataset
-2. Select features
-3. Apply StandardScaler
-4. Train KMeans (k=5)
-5. Save model & scaler
-6. Generate clustered dataset
+kmeans = KMeans(n_clusters=5)
+df['Cluster'] = kmeans.fit_predict(X)
 ```
 
 ---
@@ -203,24 +200,37 @@ Customer-Segmentation/
 ├── train_model.py
 ├── Customer Segmentation.knwf
 ```
+---
+
+# ⚙ Installation
+
+```
+pip install pandas matplotlib scikit-learn
+```
+
+Run:
+
+```
+jupyter notebook
+```
 
 ---
 
-# 🎯 Use Cases
+# 🎮 Usage
 
-- Customer targeting  
-- Marketing segmentation  
-- Business analytics  
-- Recommendation systems  
+- Run notebook  
+- Visualize clusters  
+- Analyze customer behavior  
+- Use insights for business decisions  
 
 ---
 
 # 🚀 Future Improvements
 
-- Deploy online (Streamlit Cloud)  
-- Add user authentication  
-- Add ML explainability  
-- Real-time data pipeline  
+- Deploy dashboard  
+- Add real-time clustering  
+- Use advanced ML models  
+- Integrate Streamlit UI  
 
 ---
 
