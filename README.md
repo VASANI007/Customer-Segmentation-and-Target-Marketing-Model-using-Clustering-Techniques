@@ -122,28 +122,28 @@ Dataset Source: Kaggle (Mall Customer Segmentation)
 # 📸 App Preview
 
 ## 🔹 Single Prediction
-<p align="center">
+<p align="left">
 <img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app.png" width="700"/>
 </p>
 
 ---
 
 ## 🔹 Dataset Prediction
-<p align="center">
+<p align="left">
 <img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app1.png" width="700"/>
 </p>
 
 ---
 
 ## 🔹 Cluster Visualization
-<p align="center">
+<p align="left">
 <img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app2.png" width="700"/>
 </p>
 
 ---
 
 ## 🔹 Interactive Dashboard
-<p align="center">
+<p align="left">
 <img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app3.png" width="700"/>
 </p>
 
