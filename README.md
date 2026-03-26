@@ -60,36 +60,31 @@ Dataset Source: Kaggle (Mall Customer Segmentation)
 6. Analyze clusters for business insights  
 
 ---
+# 🖥️ Streamlit Application
 
-# 📸 App Preview
+## 🔹 App Features
 
-## 🔹 Single Prediction
-<p align="center">
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app.png" width="700"/>
-</p>
+From your `app.py` :contentReference[oaicite:0]{index=0}:
 
----
+### 🧩 3 Powerful Tabs
 
-## 🔹 Dataset Prediction
-<p align="center">
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app1.png" width="700"/>
-</p>
+### 1️⃣ Single Prediction
+- Input Income & Spending Score  
+- Predict cluster instantly  
+- Shows visualization with your input point  
 
----
+### 2️⃣ Dataset Prediction
+- Loads full dataset  
+- Applies clustering  
+- Displays table + chart  
+- Download result CSV  
 
-## 🔹 Cluster Visualization
-<p align="center">
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app2.png" width="700"/>
-</p>
-
----
-
-## 🔹 Interactive Dashboard
-<p align="center">
-<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app3.png" width="700"/>
-</p>
+### 3️⃣ Visualization
+- Interactive Plotly scatter plot  
+- Real-time cluster visualization  
 
 ---
+
 
 # 📈 EDA (Exploratory Data Analysis)
 
@@ -148,6 +143,36 @@ Dataset Source: Kaggle (Mall Customer Segmentation)
 | 4 | Low Income Customers |
 
 ---
+# 📸 App Preview
+
+## 🔹 Single Prediction
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Dataset Prediction
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app1.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Cluster Visualization
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app2.png" width="700"/>
+</p>
+
+---
+
+## 🔹 Interactive Dashboard
+<p align="center">
+<img src="https://raw.githubusercontent.com/VASANI007/Customer-Segmentation-and-Target-Marketing-Model-using-Clustering-Techniques/main/Customer-Segmentation/images/app3.png" width="700"/>
+</p>
+
+---
+
 
 # 🔄 KNIME Workflow
 
@@ -201,6 +226,28 @@ Customer-Segmentation/
 ├── Customer Segmentation.knwf
 ```
 ---
+# 🤖 Model Details
+
+Inside `/models`:
+
+- `model.pkl` → KMeans clustering model  
+- `scaler.pkl` → StandardScaler  
+- `features.pkl` → Selected features  
+
+---
+
+# 🧠 Model Training Pipeline
+
+From `train_model.py`:
+
+```
+1. Load dataset
+2. Select features
+3. Apply StandardScaler
+4. Train KMeans (k=5)
+5. Save model & scaler
+6. Generate clustered dataset
+```
 
 # ⚙ Installation
 
@@ -213,7 +260,38 @@ Run:
 ```
 jupyter notebook
 ```
+# ⚙️ How to Run (IMPORTANT)
 
+### 1️⃣ Install Dependencies
+
+```
+pip install pandas numpy scikit-learn streamlit plotly
+```
+
+---
+
+### 2️⃣ Train Model (First Time Only)
+
+Run:
+
+```
+python train_model.py
+```
+
+👉 This will:
+- Train KMeans model  
+- Save model.pkl, scaler.pkl, features.pkl  
+- Generate output dataset  
+
+(From your script) :contentReference[oaicite:1]{index=1}
+
+---
+
+### 3️⃣ Run App
+
+```
+streamlit run app.py
+```
 ---
 
 # 🎮 Usage
@@ -227,10 +305,10 @@ jupyter notebook
 
 # 🚀 Future Improvements
 
-- Deploy dashboard  
-- Add real-time clustering  
-- Use advanced ML models  
-- Integrate Streamlit UI  
+- Deploy online (Streamlit Cloud)  
+- Add user authentication  
+- Add ML explainability  
+- Real-time data pipeline 
 
 ---
 
